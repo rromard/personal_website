@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+$blue:    #136BDC !default;
+$indigo:  #2E20E0 !default;
+$red:     #BE4367 !default;
+$orange:  #EF6D2E !default;
+$yellow:  #FFBD01 !default;
+$onyx:    #353839 !default;
+
+$primary:       $indigo !default;
+$secondary:     $blue !default;
+$tertiary:      $orange !default;
+$success:       $blue !default;
+$info:          $blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+$link-color:    $orange !default;
+$link-decoration:   underline  !default;

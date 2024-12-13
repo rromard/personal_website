@@ -1,0 +1,47 @@
+---
+title: "Datawrapper"
+website:
+  toc: true
+---
+
+## Grouped lollipop chart
+
+::: {#datawrapper-vis-6dpu8 style="min-height:827px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/6dpu8/embed.js" charset="utf-8" data-target="#datawrapper-vis-6dpu8"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/6dpu8/full.png"/></noscript>
+
+<br>
+:::
+
+## Beeswarm chart
+
+::: {#datawrapper-vis-eK8uJ style="min-height:684px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/eK8uJ/embed.js" charset="utf-8" data-target="#datawrapper-vis-eK8uJ"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/eK8uJ/full.png"/></noscript>
+:::
+
+## Bump chart
+
+::: {#datawrapper-vis-3AW8Q style="min-height:742px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/3AW8Q/embed.js" charset="utf-8" data-target="#datawrapper-vis-3AW8Q"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/3AW8Q/full.png"/></noscript>
+:::
+
+## Mosaic chart
+
+::: {#datawrapper-vis-90jTl style="min-height:647px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/90jTl/embed.js" charset="utf-8" data-target="#datawrapper-vis-90jTl"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/90jTl/full.png"/></noscript>
+:::

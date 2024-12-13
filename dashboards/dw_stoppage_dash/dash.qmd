@@ -1,0 +1,105 @@
+---
+title: "Work stoppages in Canada"
+author: "Ryan Romard"
+editor: source
+format: 
+  dashboard:
+    scrolling: TRUE
+    theme: [lux, dash_custom.scss]
+---
+
+```{r include=FALSE}
+# Setup
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, dev = "svg")
+```
+
+# Work stoppages
+
+## Row
+
+::: {.card title="**Number of work stoppages by sector (1946-2024)**"}
+<div style="min-height:691px" id="datawrapper-vis-GADTO"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GADTO/embed.js" charset="utf-8" data-target="#datawrapper-vis-GADTO"></script><noscript><img src="https://datawrapper.dwcdn.net/GADTO/full.png" alt="" /></noscript></div>
+:::
+
+::: {.card title="**Share of stoppages due to Lockouts versus Strikes (2015-2024)**" fill="false"}
+<div style="min-height:565px" id="datawrapper-vis-dQmPe"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/dQmPe/embed.js" charset="utf-8" data-target="#datawrapper-vis-dQmPe"></script><noscript><img src="https://datawrapper.dwcdn.net/dQmPe/full.png" alt="" /></noscript></div>
+:::
+
+## Row
+
+::: {.card title="**Number of work stoppages by industry (1946-2024)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-NHUNH"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/NHUNH/embed.js" charset="utf-8" data-target="#datawrapper-vis-NHUNH"></script><noscript><img src="https://datawrapper.dwcdn.net/NHUNH/full.png" alt="" /></noscript></div>
+:::
+
+# Workers involved
+
+## Row
+
+::: {.card title="**Max number of workers involved by sector (1946-2024)**" fill="false"}
+<div style="min-height:664px" id="datawrapper-vis-Y2tio"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Y2tio/embed.js" charset="utf-8" data-target="#datawrapper-vis-Y2tio"></script><noscript><img src="https://datawrapper.dwcdn.net/Y2tio/full.png" alt="" /></noscript></div>
+:::
+
+::: {.card title="**Max number of workers involved via Lockouts versus Strikes (2015-2024)**" fill="false"}
+<div style="min-height:721px" id="datawrapper-vis-rWBjz"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/rWBjz/embed.js" charset="utf-8" data-target="#datawrapper-vis-rWBjz"></script><noscript><img src="https://datawrapper.dwcdn.net/rWBjz/full.png" alt="" /></noscript></div>
+:::
+
+## Row
+
+::: {.card title="**Max number of workers involved by industry (1946-2024)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-CqP2y"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/CqP2y/embed.js" charset="utf-8" data-target="#datawrapper-vis-CqP2y"></script><noscript><img src="https://datawrapper.dwcdn.net/CqP2y/full.png" alt="" /></noscript></div>
+:::
+
+# Days lost
+
+## Row
+
+::: {.card title="**Workdays lost to stoppages by sector (1946-2024)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-cv7eq"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/cv7eq/embed.js" charset="utf-8" data-target="#datawrapper-vis-cv7eq"></script><noscript><img src="https://datawrapper.dwcdn.net/cv7eq/full.png" alt="" /></noscript></div>
+:::
+
+::: {.card title="**Workdays lost to Lockouts versus Strikes (2015-2024)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-3xjKL"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/3xjKL/embed.js" charset="utf-8" data-target="#datawrapper-vis-3xjKL"></script><noscript><img src="https://datawrapper.dwcdn.net/3xjKL/full.png" alt="" /></noscript></div>
+:::
+
+## Row
+
+::: {.card title="**Workdays lost to stoppages by industry (1946-2024)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-ACw4W"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ACw4W/embed.js" charset="utf-8" data-target="#datawrapper-vis-ACw4W"></script><noscript><img src="https://datawrapper.dwcdn.net/ACw4W/full.png" alt="" /></noscript></div>
+:::
+
+# Days lost (per 1K workers)
+
+## Row
+
+::: {.card title="**Workdays lost by sector <u>per 1000 workers employed</u> (1976-2023)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-EHh7J"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/EHh7J/embed.js" charset="utf-8" data-target="#datawrapper-vis-EHh7J"></script><noscript><img src="https://datawrapper.dwcdn.net/EHh7J/full.png" alt="" /></noscript></div>
+:::
+
+::: {.card title="**Workdays lost by region <u>per 1000 workers employed</u> (1987-2023)**" fill="true"}
+<div style="min-height:600px" id="datawrapper-vis-h4OcS"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/h4OcS/embed.js" charset="utf-8" data-target="#datawrapper-vis-h4OcS"></script><noscript><img src="https://datawrapper.dwcdn.net/h4OcS/full.png" alt="" /></noscript></div>
+:::
+
+## Row
+
+::: {.card title="**Workdays lost by industry <u>per 1000 workers employed</u> (1987-2023)**" fill="false"}
+<div style="min-height:400px" id="datawrapper-vis-j26Lz"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/j26Lz/embed.js" charset="utf-8" data-target="#datawrapper-vis-j26Lz"></script><noscript><img src="https://datawrapper.dwcdn.net/j26Lz/full.png" alt="" /></noscript></div>
+:::
+
+# Stoppage duration
+
+## Row
+
+::: {.card title="**Average stoppage duration (days) by sector (1946-2024)**"}
+<div style="min-height:400px" id="datawrapper-vis-DeqTs"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/DeqTs/embed.js" charset="utf-8" data-target="#datawrapper-vis-DeqTs"></script><noscript><img src="https://datawrapper.dwcdn.net/DeqTs/full.png" alt="" /></noscript></div>
+:::
+
+::: {.card title="**Average stoppage duration (days) by region (1946-2024)**"}
+<div style="min-height:600px" id="datawrapper-vis-mehuH"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/mehuH/embed.js" charset="utf-8" data-target="#datawrapper-vis-mehuH"></script><noscript><img src="https://datawrapper.dwcdn.net/mehuH/full.png" alt="" /></noscript></div>
+:::
+
+## Row
+
+::: {.card title="**Average duration of stoppages (days) by industry (1946-2024)**"}
+<div style="min-height:400px" id="datawrapper-vis-mj8Cl"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/mj8Cl/embed.js" charset="utf-8" data-target="#datawrapper-vis-mj8Cl"></script><noscript><img src="https://datawrapper.dwcdn.net/mj8Cl/full.png" alt="" /></noscript></div>
+:::
+

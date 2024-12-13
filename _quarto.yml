@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Ryan Romard"
+  navbar:
+    background: primary
+    search: false
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about/index.qmd
+      - text: blog
+        href: blog/index.qmd
+      - text: visuals
+        href: visuals/index.qmd
+      - text: dashboards
+        href: dashboards/index.qmd
+  page-footer:
+    background: primary
+    left: © Ryan Romard 2024
+    right: This website is built with [Bootswatch](https://bootswatch.com/) and [Quarto](https://quarto.org/)
+
+format:
+  html:
+    theme: [lux, custom.scss]
+    css: [styles.scss]
+    toc: false
+    page-layout: full
+
+editor: visual
+
+execute: 
+  freeze: auto

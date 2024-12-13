@@ -1,0 +1,51 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+   - icon: linkedin
+     text: LinkedIn
+     href: https://www.linkedin.com/in/ryanromard/
+   - text: "{{< iconify fa6-brands:bluesky >}} Bluesky"
+     href: https://bsky.app/profile/rromard.bsky.social
+   - icon: github
+     text: Github
+     href: https://github.com/rromard
+   - icon: envelope
+     text: Email
+     href: mailto:rromard@gmail.com
+---
+
+**I am** a researcher, analyst and data storyteller. But the point of researching, analyzing, and telling stories is to make change. I have worked with public sector education organizations, think tanks, and labour organizations to turn data and research into meaningful insights and policy tools for progress.
+
+With expertise in sociology, political science, market research and data science, my work focuses on understanding and communicating the forces shaping our politics, economics, and society – as well as conducting more detailed and focused policy analysis or program evaluations to inform change.
+
+Lately, I am researching and writing on the political economy of labour and unions in Canada. This site is a permanent home for my work that does not end up in other publications, as well as my data visualizations and interactive data products. Sometimes, I write coding and data science tutorials showing how it works behind the scenes. In my 
+
+## Experience
+
+Canadians for Tax Fairness \| Research Associate \| 2024
+
+Canadian Centre for Policy Alternatives \| Research Associate \| 2022-2023
+
+Kawartha Pine-Ridge District School Board \| Research Data Lead \| 2018-2020
+
+## Education
+
+Humber Polytechnic \| Toronto, ON \|
+Research Analyst Graduate Certificate \| 2016
+
+Acadia University \| Wolfville, NS \|
+M.A. in Sociology \| 2014
+
+Cape Breton University \| Sydney, NS \|
+B.A in Political Science \| 2008
+
+## Skills
+
+Research design \| Quantitative \| Qualitative \| Survey research \|  
+Policy analysis \| Program evaluation \| Data science \| Coding \|  
+Research communications \| Data visualization  \| Information design
+
+

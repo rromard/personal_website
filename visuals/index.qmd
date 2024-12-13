@@ -1,0 +1,9 @@
+---
+title: "Visuals"
+---
+
+## [Custom Datawrapper charts with R](datawrapper/index.qmd)
+
+[**Datawrapper**](https://www.datawrapper.de/) is a software-as-service company that provides a platform for easy, stylish and interactive data visualizations and tables. Their charts are widely used by journalists and in non-profits because they require no coding, are quick to make, work well on small screens, and a breeze to maintain. Using a scripting language like R or python to access the API, it's possible to unlock a hidden layer of potential in Datawrapper. The page linked above showcases some of the custom templates that I have developed.
+
+*Note: I am not affiliated with or paid by Datawrapper in any way.*

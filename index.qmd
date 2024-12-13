@@ -1,0 +1,25 @@
+---
+title: "Sociologist | Research analyst"
+website:
+  toc: false
+---
+
+:::::: grid
+::: {#about-me-text .g-col-12 .g-col-md-6}
+My training is in sociology and political science, as well as in applied research analysis. I specialize in economic sociology, education research, survey research, and data storytelling. I've as worked as a researcher in public education and for think-tanks like the Canadian Centre for Policy Alternatives, where some of my [writing and research](https://www.policyalternatives.ca/news-research/author/ryan-romard/) can be found.
+
+On this site, I'll share my analysis of economy, politics, and society from a progressive, pro-labour and data-driven perspective. It will also provide a permanent home for some of my data storytelling and visualization work. I'm planning on adding some coding tutorials related to all of this in the future.
+
+I’m always looking for new opportunities to bring data to life through research, visualizations, or storytelling. If you have an idea or project in mind, feel free to get in touch on [Linkedin](https://www.linkedin.com/in/ryanromard/) or [Bluesky](https://bsky.app/profile/rromard.bsky.social)—I’d be happy to discuss how we can work together.
+:::
+
+:::: {.g-col-12 .g-col-md-6}
+::: {#datawrapper-vis-hkfal style="min-height:537px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/hkfal/embed.js" charset="utf-8" data-target="#datawrapper-vis-hkfal"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/hkfal/full.png"/></noscript>
+:::
+::::
+::::::

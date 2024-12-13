@@ -1,0 +1,9 @@
+---
+title: "Dashboards"
+---
+
+## [Work stoppage dashboard](dw_stoppage_dash/dash.qmd)
+
+**A lightweight dashboard** made using R, Quarto Dashboards, and Datawrapper. It features data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.
+
+**How to make a responsive dashboard with R, Quarto, and Datawrapper** (*Coming soon*)
