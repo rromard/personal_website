@@ -14,12 +14,7 @@ I’m always looking for new opportunities to bring data to life through researc
 :::
 
 :::: {.g-col-12 .g-col-md-6}
-::: {#datawrapper-vis-hkfal style="min-height:537px"}
-```{=html}
-<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/hkfal/embed.js" charset="utf-8" data-target="#datawrapper-vis-hkfal"></script>
-```
 
-<noscript><img src="https://datawrapper.dwcdn.net/hkfal/full.png"/></noscript>
-:::
-::::
+<div style="min-height:469px" id="datawrapper-vis-mmBo6"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/mmBo6/embed.js" charset="utf-8" data-target="#datawrapper-vis-mmBo6"></script><noscript><img src="https://datawrapper.dwcdn.net/mmBo6/full.png" alt="" /></noscript></div>
+
 ::::::
