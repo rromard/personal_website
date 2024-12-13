@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: c136fbd7-2c35-4745-9e39-e8cad06ac849
+      url: https://legendary-lokum-290852.netlify.app

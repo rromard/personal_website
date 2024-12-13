@@ -1,20 +1,8 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/post1/index.html",
-      "/blog/post2/index.html",
-      "/blog/post3/index.html"
-    ]
-  },
-  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/blog/post1/index.html"
     ]
-  },
-  {
-    "listing": "/blog/blog.html",
-    "items": []
   }
 ]
