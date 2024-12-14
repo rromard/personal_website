@@ -97,15 +97,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
-<span class="menu-text">blog</span></a>
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../visuals/index.html"> 
-<span class="menu-text">visuals</span></a>
+<span class="menu-text">Visuals</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../dashboards/index.html"> 
-<span class="menu-text">dashboards</span></a>
+<span class="menu-text">Dashboards</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../resources/index.html" aria-current="page"> 
+<span class="menu-text">Resources</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -141,8 +145,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="under-construction" class="level2">
+<h2 class="anchored" data-anchor-id="under-construction">Under construction</h2>
+<p>This section will eventually host educational materials and resources on data science, coding, and visualizations.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -235,7 +243,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/legendary-lokum-290852\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

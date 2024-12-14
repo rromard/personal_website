@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Ryan Romard"
+  description: "Personal site of Ryan Romard, sociologist and research analyst"
+  twitter-card: true
   navbar:
     background: primary
     search: false
@@ -11,12 +13,14 @@ website:
         href: index.qmd
       - text: About
         href: about/index.qmd
-      - text: blog
+      - text: Blog
         href: blog/index.qmd
-      - text: visuals
+      - text: Visuals
         href: visuals/index.qmd
-      - text: dashboards
+      - text: Dashboards
         href: dashboards/index.qmd
+      - text: Resources
+        href: resources/index.qmd
   page-footer:
     background: primary
     left: © Ryan Romard 2024

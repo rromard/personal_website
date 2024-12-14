@@ -1,8 +1,9 @@
 ---
-title: "About"
+title: "Contact"
 image: profile.jpg
 about:
-  template: jolla
+  image-shape: round
+  template: trestles
   links:
    - icon: linkedin
      text: LinkedIn
@@ -17,11 +18,17 @@ about:
      href: mailto:rromard@gmail.com
 ---
 
+## About me
+
 **I am** a researcher, analyst and data storyteller. But the point of researching, analyzing, and telling stories is to make change. I have worked with public sector education organizations, think tanks, and labour organizations to turn data and research into meaningful insights and policy tools for progress.
 
 With expertise in sociology, political science, market research and data science, my work focuses on understanding and communicating the forces shaping our politics, economics, and society – as well as conducting more detailed and focused policy analysis or program evaluations to inform change.
 
 Lately, I am researching and writing on the political economy of labour and unions in Canada. This site is a permanent home for my work that does not end up in other publications, as well as my data visualizations and interactive data products. Sometimes, I write coding and data science tutorials showing how it works behind the scenes.
+
+If your organization is looking for support in economic, political, or policy analysis, data science, or data storytelling, I’d love to hear from you. I specialize in creating visualizations, infographics, interactive charts, and dashboards that help make data more accessible and impactful.
+
+Whether you need help with a specific project or are looking to use data in a more strategic way, I’m happy to discuss how we can work together. Feel free to connect with me via LinkedIn, Bluesky, or email—I’m looking forward to hearing about your next project!
 
 ## Experience
 

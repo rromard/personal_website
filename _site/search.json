@@ -37,28 +37,28 @@
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "About",
+    "title": "Contact",
     "section": "",
-    "text": "I am a researcher, analyst and data storyteller. But the point of researching, analyzing, and telling stories is to make change. I have worked with public sector education organizations, think tanks, and labour organizations to turn data and research into meaningful insights and policy tools for progress.\nWith expertise in sociology, political science, market research and data science, my work focuses on understanding and communicating the forces shaping our politics, economics, and society – as well as conducting more detailed and focused policy analysis or program evaluations to inform change.\nLately, I am researching and writing on the political economy of labour and unions in Canada. This site is a permanent home for my work that does not end up in other publications, as well as my data visualizations and interactive data products. Sometimes, I write coding and data science tutorials showing how it works behind the scenes. In my"
+    "text": "I am a researcher, analyst and data storyteller. But the point of researching, analyzing, and telling stories is to make change. I have worked with public sector education organizations, think tanks, and labour organizations to turn data and research into meaningful insights and policy tools for progress.\nWith expertise in sociology, political science, market research and data science, my work focuses on understanding and communicating the forces shaping our politics, economics, and society – as well as conducting more detailed and focused policy analysis or program evaluations to inform change.\nLately, I am researching and writing on the political economy of labour and unions in Canada. This site is a permanent home for my work that does not end up in other publications, as well as my data visualizations and interactive data products. Sometimes, I write coding and data science tutorials showing how it works behind the scenes.\nIf your organization is looking for support in economic, political, or policy analysis, data science, or data storytelling, I’d love to hear from you. I specialize in creating visualizations, infographics, interactive charts, and dashboards that help make data more accessible and impactful.\nWhether you need help with a specific project or are looking to use data in a more strategic way, I’m happy to discuss how we can work together. Feel free to connect with me via LinkedIn, Bluesky, or email—I’m looking forward to hearing about your next project!"
   },
   {
     "objectID": "about/index.html#experience",
     "href": "about/index.html#experience",
-    "title": "About",
+    "title": "Contact",
     "section": "Experience",
     "text": "Experience\nCanadians for Tax Fairness | Research Associate | 2024\nCanadian Centre for Policy Alternatives | Research Associate | 2022-2023\nKawartha Pine-Ridge District School Board | Research Data Lead | 2018-2020"
   },
   {
     "objectID": "about/index.html#education",
     "href": "about/index.html#education",
-    "title": "About",
+    "title": "Contact",
     "section": "Education",
     "text": "Education\nHumber Polytechnic | Toronto, ON | Research Analyst Graduate Certificate | 2016\nAcadia University | Wolfville, NS | M.A. in Sociology | 2014\nCape Breton University | Sydney, NS | B.A in Political Science | 2008"
   },
   {
     "objectID": "about/index.html#skills",
     "href": "about/index.html#skills",
-    "title": "About",
+    "title": "Contact",
     "section": "Skills",
     "text": "Skills\nResearch design | Quantitative | Qualitative | Survey research |\nPolicy analysis | Program evaluation | Data science | Coding |\nResearch communications | Data visualization | Information design"
   },
@@ -103,5 +103,33 @@
     "title": "Datawrapper",
     "section": "Mosaic chart",
     "text": "Mosaic chart"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This section will eventually host educational materials and resources on data science, coding, and visualizations."
+  },
+  {
+    "objectID": "resources/index.html#under-construction",
+    "href": "resources/index.html#under-construction",
+    "title": "Resources",
+    "section": "",
+    "text": "This section will eventually host educational materials and resources on data science, coding, and visualizations."
+  },
+  {
+    "objectID": "about/index.html#contact",
+    "href": "about/index.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact"
+  },
+  {
+    "objectID": "about/index.html#about-me",
+    "href": "about/index.html#about-me",
+    "title": "Contact",
+    "section": "",
+    "text": "I am a researcher, analyst and data storyteller. But the point of researching, analyzing, and telling stories is to make change. I have worked with public sector education organizations, think tanks, and labour organizations to turn data and research into meaningful insights and policy tools for progress.\nWith expertise in sociology, political science, market research and data science, my work focuses on understanding and communicating the forces shaping our politics, economics, and society – as well as conducting more detailed and focused policy analysis or program evaluations to inform change.\nLately, I am researching and writing on the political economy of labour and unions in Canada. This site is a permanent home for my work that does not end up in other publications, as well as my data visualizations and interactive data products. Sometimes, I write coding and data science tutorials showing how it works behind the scenes.\nIf your organization is looking for support in economic, political, or policy analysis, data science, or data storytelling, I’d love to hear from you. I specialize in creating visualizations, infographics, interactive charts, and dashboards that help make data more accessible and impactful.\nWhether you need help with a specific project or are looking to use data in a more strategic way, I’m happy to discuss how we can work together. Feel free to connect with me via LinkedIn, Bluesky, or email—I’m looking forward to hearing about your next project!"
   }
 ]
