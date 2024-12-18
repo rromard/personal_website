@@ -1,6 +1,10 @@
 ---
-title: "Not Just Vibes: Unionized Workers Are Feeling Real Wage Losses"
-date: "12/16/2024"
+title: "Not Just Vibes: Union Workers Face Wage Stagnation"
+author: "Ryan Romard"
+date: "12/18/2024"
+description: "Rising wages tell only part of the story: unionized workers face stagnation, falling behind in an era of historic pay gains."
+image: featured.png
+title-block-banner: true
 categories:
   - unions
   - wages
@@ -8,7 +12,7 @@ categories:
   - lfs
 ---
 
-## Real wages are up, but union members are missing out
+## Real wages are up, but many workers are missing out
 
 Economic growth is back on track, inflation is easing, and real wages have finally grown. This has led some [policymakers](https://www.ctvnews.ca/politics/freeland-says-the-two-month-gst-holiday-is-meant-to-tackle-the-vibecession-1.7122513) to suggest that the cost-of-living crisis is fading. [Economists](https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.economic-indicators.scotia-flash.-september-6--2024-.html) now [ensure us](https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.insights-views.cdn-household-balance-sheets--july-25--2024-.html) that "the economy" is doing pretty well, all things considered.
 
