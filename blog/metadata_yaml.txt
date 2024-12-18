@@ -6,3 +6,6 @@ freeze: auto
 
 # enable banner style title blocks ----
 title-block-banner: true
+
+# Layout
+page-layout: article

@@ -2,6 +2,17 @@
 title: "Sociologist | Research analyst"
 website:
   toc: false
+listing: 
+  contents: 
+    - "blog/blog/**/*.qmd"
+  type: grid 
+  sort: "date desc" 
+  max-items: 3
+  sort-ui: false
+  filter-ui: false
+  categories: false
+page-layout: full
+title-block-banner: false
 ---
 
 :::::: grid
@@ -14,7 +25,17 @@ I’m always looking for new opportunities to bring data to life through researc
 :::
 
 :::: {.g-col-12 .g-col-md-6}
+::: {#datawrapper-vis-mmBo6 style="min-height:469px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/mmBo6/embed.js" charset="utf-8" data-target="#datawrapper-vis-mmBo6"></script>
+```
 
-<div style="min-height:469px" id="datawrapper-vis-mmBo6"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/mmBo6/embed.js" charset="utf-8" data-target="#datawrapper-vis-mmBo6"></script><noscript><img src="https://datawrapper.dwcdn.net/mmBo6/full.png" alt="" /></noscript></div>
-
+<noscript><img src="https://datawrapper.dwcdn.net/mmBo6/full.png"/></noscript>
+:::
+::::
 ::::::
+
+## Recent content
+
+::: {#main-listing}
+:::

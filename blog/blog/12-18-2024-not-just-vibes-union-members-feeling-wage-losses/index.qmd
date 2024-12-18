@@ -1,0 +1,90 @@
+---
+title: "Not Just Vibes: Unionized Workers Are Feeling Real Wage Losses"
+date: "12/16/2024"
+categories:
+  - unions
+  - wages
+  - inflation
+  - lfs
+---
+
+## Real wages are up, but union members are missing out
+
+Economic growth is back on track, inflation is easing, and real wages have finally grown. This has led some [policymakers](https://www.ctvnews.ca/politics/freeland-says-the-two-month-gst-holiday-is-meant-to-tackle-the-vibecession-1.7122513) to suggest that the cost-of-living crisis is fading. [Economists](https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.economic-indicators.scotia-flash.-september-6--2024-.html) now [ensure us](https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.insights-views.cdn-household-balance-sheets--july-25--2024-.html) that "the economy" is doing pretty well, all things considered.
+
+Despite this "good news" there is a prevalent mood of anger and frustration due to financial pain. How can real wages be rising, while most people perceive a rapid decline in their living standards? Some commentators have insisted that the economic perceptions of most people are just out of sync with reality. Some people just don't know how good they really have it, right?
+
+There are many reasons to be skeptical about this narrative, but we can start with a simple one – large groups of workers have so far been left out of the alleged wage recovery.
+
+It is true that many workers have recently seen significant wage gains after years of stagnation. According to Labour Force Survey data, average hourly real wages (adjusted to 2024 dollars based on the [all-items CPI](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000413)) grew by \$2.58 for men (+7.4%) and \$2.88 for women (+9.7%) over the last decade. Most of these gains came in the past two years.
+
+::: {#datawrapper-vis-aNKWE style="min-height:647px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/aNKWE/embed.js" charset="utf-8" data-target="#datawrapper-vis-aNKWE"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/aNKWE/full.png" alt="The chart titled &apos;Strong wage growth, gender gap narrows ever so slightly&apos; shows average and median hourly real wages (adjusted to \$2024) for men and women from 2014 to 2024. Men&apos;s average wages increased from \$34.82 in 2014 to \$37.40 in 2024, while women&apos;s average wages grew from \$29.74 to \$32.63, slightly narrowing the wage gap. Median wages for men rose from \$30.41 in 2014 to $32.00 in 2024. For women, median wages increased from \$25.66 to \$27.95. While wages grew for both genders, the gender pay gap persists, with men consistently earning more over the decade."/></noscript>
+:::
+
+<br>
+
+## Union members, nearly a third of workers, are being left behind
+
+While many workers are seeing their wages grow, union members are notably missing out. Most have experienced stagnant or even declining real wages. The chart below shows average wages for non-union workers compared to those who are either union members or are covered by a collective agreement.
+
+In the private sector, unionized workers saw their hourly wages increase by a meager 30 cents (+0.9%) from 2014 to 2024. Public sector union members fared even worse, with real hourly wages dropping by 94 cents an hour (-2.3%) over the same period.
+
+By contrast, non-unionized workers have seen substantial wage growth. In the private sector, non-union employees enjoyed an impressive \$4.15 (+14.2%) increase in hourly pay. Non-union public sector workers, primarily professionals and managers that are already highly paid, experienced more modest gains of \$1.12 (+2.7%).
+
+Historically, private sector union members earned higher average wages than their non-unionized peers. But since the onset of the cost-of-living crisis in 2021-22, that advantage has eroded. Today, average wages for non-unionized workers exceed those of unionized workers by about 40 cents per hour.
+
+In 2024, there were over 3.3 million union members in the public sector and another 2 million in the private sector -- that's about three in ten paid employees in the country who have largely been left behind as wages rise.
+
+Why are union members, long known for securing better wages, falling behind during this period of historic wage growth?
+
+::: {#datawrapper-vis-TMpxj style="min-height:647px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/TMpxj/embed.js" charset="utf-8" data-target="#datawrapper-vis-TMpxj"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/TMpxj/full.png" alt="The chart titled &quot;Union members experience a lost decade of real wages&quot; tracks average hourly real wages (in \$2024) from 2014 to 2024 by sector and union status. Wages for public non-union workers increased slightly, rising from \$41.90 in 2014 to \$43.02 in 2024. Public union members, however, saw wages decline, dropping from \$40.91 in 2014 to $39.97 in 2024.
+
+In the private sector, non-union workers experienced significant wage growth, rising from \$29.28 in 2014 to \$33.43 in 2024. Meanwhile, wages for private union members remained nearly flat, increasing only marginally from \$31.70 in 2014 to $32.00 in 2024. The chart highlights stagnation and decline in unionized workers’ wages across both sectors, while non-union workers—particularly in the private sector—saw wage growth over the same period."/></noscript>
+:::
+
+<br>
+
+One major factor is job-switching. Much of the wage growth among non-unionized private sector workers has been driven by employees [leaving low-paying jobs](https://www.policyalternatives.ca/news-research/cerb-more-than-just-an-income-program/) for higher-paying opportunities. Given the higher than usual labour demand as the economy re-opened – pandemic be damned – from late 2021 to 2023, employers also had to offer higher wages to attract new hires, especially in very low-wage, front-line industries. This path to higher earnings isn’t as available to union members.
+
+Unionized jobs, particularly in the private sector, are relatively scarce. Opportunities to move from one unionized position to another are limited. Even when such moves are possible, the wage structures in unionized workplaces are typically tied to seniority, making it difficult to achieve immediate pay increases by switching jobs.
+
+## Private sector union wages are treading water
+
+For union members, wage increases depend on collective bargaining – which ultimately depends on the right to strike. Contracts, which typically last three to five years in Canada, lock in wage rates for the duration of the agreement. Workers whose contracts were negotiated just before or during the early stages of the cost-of-living crisis in 2020-2021 have seen their real wages stagnate or decline as inflation eroded their purchasing power.
+
+A closer look at the data for private sector union members reveals the extent of the stagnation. The chart underneath shows average wages for private sector union members or those that are covered by a CA by each quintile of hourly earnings.
+
+While unionized workers in the lowest wage quintile saw some gains—an \$1.75 increase (+11%) over the past decade—most others have seen little to no growth when accounting for inflation. Across most earnings levels, private sector union wages have barely moved, leaving most workers no better off than a decade ago – and wondering when their pay will reflect the broader trend of wage growth.
+
+::: {#datawrapper-vis-ZAVbR style="min-height:664px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ZAVbR/embed.js" charset="utf-8" data-target="#datawrapper-vis-ZAVbR"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/ZAVbR/full.png" alt="The chart titled &quot;Private sector union real wages are frozen in time&quot; shows average hourly real wages (in $2024) for private sector union members or workers covered by collective agreements, broken down by earnings quintiles from 2014 to 2024.
+
+Highest quintile wages rose slightly from \$52.67 in 2014 to \$54.04 in 2019, but fell back to $52.93 by 2024.
+4th quintile wages remained stagnant, starting at \$37.58 in 2014, marginally increasing to \$37.67 in 2019, and falling slightly to $37.42 in 2024.
+3rd quintile wages declined from \$29.20 in 2014 to \$28.91 in 2019 and $28.78 in 2024.
+2nd quintile wages remained nearly flat, moving from \$23.14 in 2014 to \$23.01 in 2019 and $23.17 in 2024.
+Lowest quintile wages showed minimal growth, increasing from \$15.93 in 2014 to \$17.20 in 2019 and $17.69 in 2024.
+The chart highlights wage stagnation across all earnings quintiles for private sector unionized workers over the 10-year period, with no meaningful gains in real wages."/></noscript>
+:::
+
+### The Coming Battle for Fair Wages
+
+The silver lining for private sector union members is that change may be on the horizon. As pre-cost-of-living crisis contracts expire and new agreements are negotiated, workers and their unions will likely [push for significant raises to make up for lost ground.](https://economics.td.com/ca-union-wages-bargaining-for-their-share) After a decade of treading water, the demand for major raises that restore lost purchasing power will be stronger than ever.
+
+Canadian union members are [already looking](https://www.wionews.com/autonews/canadian-auto-union-unifor-ratifies-landmark-two-year-contract-with-gm-761115) to the example set by the United Auto Workers (UAW) in the United States. In a highly strategic and combative campaign, the UAW recently [secured a 25% wage increase](https://www.npr.org/2023/11/16/1212381342/gm-autoworkers-vote-yes-approve-uaw-contract-ford-stellantis) over four years—an impressive victory after decades of uphill struggle.
+
+If Canadian unions take a similarly bold and strategic approach, the next wave of collective bargaining could bring long-overdue gains for unionized workers, restoring the wage premium they have historically enjoyed.
