@@ -6,6 +6,6 @@ listing:
   type: default
   sort: "date desc" 
   categories: true
-  fields: [date, title, subtitle, author, description, word-count, reading-time]
+  fields: [image, date, title, subtitle, author, description, word-count, reading-time]
 page-layout: full
 ---
