@@ -1,7 +1,8 @@
 ---
 title: "Blog"
 listing: 
-  contents: blog 
+  contents: 
+    - "*/*.qmd"
   type: default
   sort: "date desc" 
   categories: true

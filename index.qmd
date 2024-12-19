@@ -4,7 +4,7 @@ website:
   toc: false
 listing: 
   contents: 
-    - "blog/blog/**/*.qmd"
+    - "blog/*/*.qmd"
   type: grid 
   sort: "date desc" 
   max-items: 3
