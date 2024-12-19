@@ -2,6 +2,7 @@
 title: "Sociologist | Research analyst"
 website:
   toc: false
+  image: preview.png
 listing: 
   contents: 
     - "blog/*/*.qmd"
