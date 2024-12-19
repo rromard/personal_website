@@ -2,7 +2,7 @@
 title: "Not Just Vibes: Union Members Face Wage Stagnation"
 author: "Ryan Romard"
 date: "12/18/2024"
-image: preview.webp
+image: post_preview.webp
 description: "Rising wages tell only part of the story: unionized workers face stagnation, falling behind in an era of historic pay gains."
 title-block-banner: true
 categories:

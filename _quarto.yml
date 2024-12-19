@@ -5,10 +5,7 @@ website:
   title: "Ryan Romard"
   description: "Personal site of Ryan Romard, sociologist and research analyst"
   site-url: https://rromard.netlify.app
-<<<<<<< HEAD
   image: main_preview.png
-=======
->>>>>>> 0a5f45b15c902346b37b2e1cd93c663bbf3afea9
   twitter-card: true
   open-graph: true
   navbar:
