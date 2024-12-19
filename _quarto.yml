@@ -4,7 +4,9 @@ project:
 website:
   title: "Ryan Romard"
   description: "Personal site of Ryan Romard, sociologist and research analyst"
+  site-url: https://rromard.netlify.app
   twitter-card: true
+  open-graph: true
   navbar:
     background: primary
     search: false
