@@ -69,7 +69,7 @@ This pattern of high union density that uplifts wages most at the low end—like
 
 Finally, we can examine the effect of union membership with regard to employment status, which is one of the most important factors behind low pay. Workers outside the standard employment contract—such as involuntary part-timers, temporary workers, and multiple job holders—have much lower average wages.
 
-Union membership largely protects against the corrosive effects of non-standard work arrangements on wages and working conditions. Workers in non-standard employment situations had average wages that were over \$8 an hour higher (+32%) than their non-union counterparts.
+Union membership offers significant protection against the corrosive effects of non-standard work arrangements on wages and working conditions. Workers in non-standard employment situations had average wages that were over \$8 an hour higher (+32%) than their non-union counterparts.
 
 ::: {#datawrapper-vis-4Ublc style="min-height:352px"}
 ```{=html}
