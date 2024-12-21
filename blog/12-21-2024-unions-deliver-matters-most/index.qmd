@@ -1,0 +1,86 @@
+---
+title: "How Unions Boost Pay Where It Matters Most"
+author: "Ryan Romard"
+date: "12/21/2024"
+image: p2_thumb.jpg
+description: "Average wages tell only part of the story. Unions raise pay for most workers, especially in low-paying and precarious jobs. See why they still matter to the bottom line for workers."
+title-block-banner: true
+categories:
+  - unions
+  - wages
+  - lfs
+---
+
+For over a decade, real wage growth has been elusive for unionized workers. While non-union wages have climbed steadily, unionized workers have faced stagnation – and in some cases, decline. Yet despite what average wage data might suggest, union membership still secures higher pay for most workers, especially at the lower end of the wage distribution where workers need it the most.
+
+My [last analysis](https://rromard.netlify.app/blog/12-18-2024-not-just-vibes-union-members-feeling-wage-losses/) uncovered that real wages for union members have been stuck in limbo for at least a decade. Since 2014, real wages have risen less than 1% in the private sector and actually dropped by 2.3% in the public sector. Over that time, the average wages of non-union workers grew to surpass unionized workers by about \$1.43 per hour in the private sector. In the public sector, the gap was even higher at \$3.05 hourly.
+
+Does this mean that it is no longer worth it for workers to form or join unions? Absolutely not. Union membership is virtually always in the short and long-term interests of workers – not just to get a bigger paycheck, but also a higher quality of life.
+
+## Unions delivering for non-professional private sector workers
+
+Even if we focus solely on average hourly wages, leaving aside [other important benefits like pension plans or healthcare coverage](https://www.policyalternatives.ca/news-research/its-still-worth-it-to-unionize-in-canada/), most workers still get ahead by being union members. Average wage data conceals much complexity and difference under the surface. Now that non-union wages are higher "on average," it is worth asking: whose wages are higher?
+
+The charts in this post show the difference in average hourly wages in 2024 between union members and non-members across different sectors, occupations, and employment statuses, based on Labour Force Survey data. Since we are only looking at 2024 wages, the values are not inflation adjusted. The first chart below compares wages across all of the non-managerial job types based on the [National Occupation Classification System](https://noc.esdc.gc.ca/Structure/ViewStructureList).
+
+Whether or not unions lead to higher wages depends highly on the type of job. In the private sector, union members had higher average wages in the vast majority of non-professional occupations, as well as in a few professional categories like education or business jobs.
+
+::: {#datawrapper-vis-FdsZX style="min-height:917px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/FdsZX/embed.js" charset="utf-8" data-target="#datawrapper-vis-FdsZX"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/FdsZX/full.png"/></noscript>
+:::
+
+<br>
+
+As one goes down the wage ladder, the union advantage becomes more consistent. In occupations with below-average wages, union members consistently held higher wages, with the exception of (1) education and legal assistants, who had roughly equal wages and (2) sales and service occupations, where both wages and union density are very low.
+
+In other words, unions are delivering a wage boost where it is needed the most – to workers in lower wage occupations.
+
+This finding also implies that the union/non-union divergence in average wages is being driven largely by high-wage professional occupations like doctors or lawyers, where unionization rates tend to be very low due to the nature of these roles.
+
+## Unions are busting inequality in the public sector
+
+A similar pattern is evident in the public sector, where average wages are about \$3 higher per hour for non-union members. Unlike in the private sector, this is a long-standing trend. 
+
+One reason for this is that higher union density rates in public sector workplaces mean membership much more clearly separates average workers from highly paid professionals and managers ([p. 19](https://economics.ubc.ca/wp-content/uploads/sites/38/2018/12/pdf_paper_thomas_Lemieux-public.pdf)).
+
+Another reason is that unionized public sector workers have endured wage stagnation due to significant [government attacks](https://www.policyalternatives.ca/news-research/public-sector-workers-are-leading-a-big-uptick-in-strikes-in-canada/) on their right to bargain and strike. Managers and many professionals, by contrast, face no such constraints.
+
+The average union vs. non-union wage differential is largely driven by workers in highly paid professional occupations in the public sector—lawyers, engineers, and finance and health professionals, except nurses.
+
+::: {#datawrapper-vis-f7Wyj style="min-height:917px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/f7Wyj/embed.js" charset="utf-8" data-target="#datawrapper-vis-f7Wyj"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/f7Wyj/full.png"/></noscript>
+:::
+
+<br>
+
+As in the private sector, union members enjoy higher average wages throughout the bottom of the wage distribution. Union members had higher wages in 15 out of 23 (65%) occupations with lower-than-average wages for the public sector. 
+
+This pattern of high union density that uplifts wages most at the low end—likely contributes to the [inequality-reducing effects of public sector employment](https://www.policyalternatives.ca/news-research/how-the-public-sector-is-fighting-income-inequality-and-why-its-still-not-enough/) in Canada.
+
+## Protecting the paychecks of precarious workers
+
+Finally, we can examine the effect of union membership with regard to employment status, which is one of the most important factors behind low pay. Workers outside the standard employment contract—such as involuntary part-timers, temporary workers, and multiple job holders—have much lower average wages.
+
+Union membership largely protects against the corrosive effects of non-standard work arrangements on wages and working conditions. Workers in non-standard employment situations had average wages that were over \$8 an hour higher (+32%) than their non-union counterparts.
+
+::: {#datawrapper-vis-4Ublc style="min-height:352px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/4Ublc/embed.js" charset="utf-8" data-target="#datawrapper-vis-4Ublc"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/4Ublc/full.png"/></noscript>
+:::
+
+## Unions: So worth it, you'll live longer
+
+So, is it still worth it to unionize? Absolutely. Most workers — those who are not managers or highly paid professionals — can expect to enjoy higher wages if they are part of a union. In the years to come, it is likely that unionized workers will secure significant raises as pre-inflation crisis contracts expire and new agreements are signed in a high wage growth environment.
+
+And this is only considering hourly wages. It does not account for other forms of compensation, such as pension contributions or access to health insurance plans. Beyond dollars and cents, unions improve members' lives both at work—through better job security and protection against employer abuse—and outside of work, where studies show union membership leads to [better well-being](https://poverty.ucdavis.edu/article/do-unions-improve-health-workers-and-their-families) and even extends [life expectancy](https://phys.org/news/2024-12-union-membership-longer-life.html).
