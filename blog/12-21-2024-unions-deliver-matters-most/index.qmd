@@ -49,7 +49,7 @@ One reason for this is that higher union density rates in public sector workplac
 
 Another reason is that unionized public sector workers have endured wage stagnation due to significant [government attacks](https://www.policyalternatives.ca/news-research/public-sector-workers-are-leading-a-big-uptick-in-strikes-in-canada/) on their right to bargain and strike. Managers and many professionals, by contrast, face no such constraints.
 
-The average union vs. non-union wage differential is largely driven by workers in highly paid professional occupations in the public sector—lawyers, engineers, and finance and health professionals, except nurses.
+Just as in the private sector, the average union vs. non-union wage differential is substantially driven by employees in highly paid professional occupations — lawyers, engineers, and finance and health professionals, except nurses.
 
 ::: {#datawrapper-vis-f7Wyj style="min-height:917px"}
 ```{=html}
