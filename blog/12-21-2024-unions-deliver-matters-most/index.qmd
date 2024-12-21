@@ -19,11 +19,11 @@ Does this mean that it is no longer worth it for workers to form or join unions?
 
 ## Unions delivering for non-professional private sector workers
 
-Even if we focus solely on average hourly wages, leaving aside [other important benefits like pension plans or healthcare coverage](https://www.policyalternatives.ca/news-research/its-still-worth-it-to-unionize-in-canada/), most workers still get ahead by being union members. Average wage data conceals much complexity and difference under the surface. Now that non-union wages are higher "on average," it is worth asking: whose wages are higher?
+Even if we focus solely on average hourly wages, leaving aside [other important benefits like pension plans or healthcare coverage](https://www.policyalternatives.ca/news-research/its-still-worth-it-to-unionize-in-canada/), most workers still get ahead by being union members. Average wage data conceals much complexity and difference under the surface. Now that non-union wages are higher "on average" in the private sector, it is worth asking: *whose* wages are higher?
 
-The charts in this post show the difference in average hourly wages in 2024 between union members and non-members across different sectors, occupations, and employment statuses, based on Labour Force Survey data. Since we are only looking at 2024 wages, the values are not inflation adjusted. The first chart below compares wages across all of the non-managerial job types based on the [National Occupation Classification System](https://noc.esdc.gc.ca/Structure/ViewStructureList).
+The charts in this post show the difference in average hourly wages in 2024 between non-unionized workers and union members (or non-members still covered by a collective agreement) across different sectors, occupations, and employment arrangements. The source for all data is the Labour Force Survey public use files. Since we are only looking at 2024 wages, the values are not inflation adjusted. 
 
-Whether or not unions lead to higher wages depends highly on the type of job. In the private sector, union members had higher average wages in the vast majority of non-professional occupations, as well as in a few professional categories like education or business jobs.
+The first chart below compares wages across all of the non-managerial job types based on the [National Occupation Classification System](https://noc.esdc.gc.ca/Structure/ViewStructureList). Whether or not unions lead to higher wages depends highly on the type of job. In the private sector, union members had higher average wages in the vast majority of non-professional occupations, as well as in a few professional categories like education or business jobs.
 
 ::: {#datawrapper-vis-FdsZX style="min-height:917px"}
 ```{=html}
