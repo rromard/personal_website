@@ -3,7 +3,7 @@ title: "How Unions Boost Pay Where It Matters Most"
 author: "Ryan Romard"
 date: "12/21/2024"
 image: p2_thumb.jpg
-description: "Average wages tell only part of the story. Unions raise pay for most workers, especially in low-paying and precarious jobs. See why they still matter to the bottom line for workers."
+description: "Non-member wages are on average higher than union wages in Canada — but averages can be misleading. Unions still raise pay for most workers, especially in low-paying and precarious jobs."
 title-block-banner: true
 categories:
   - unions
@@ -21,7 +21,7 @@ Does this mean that it is no longer worth it for workers to form or join unions?
 
 Even if we focus solely on average hourly wages, leaving aside [other important benefits like pension plans or healthcare coverage](https://www.policyalternatives.ca/news-research/its-still-worth-it-to-unionize-in-canada/), most workers still get ahead by being union members. Average wage data conceals much complexity and difference under the surface. Now that non-union wages are higher "on average" in the private sector, it is worth asking: *whose* wages are higher?
 
-The charts in this post show the difference in average hourly wages in 2024 between non-unionized workers and union members (or non-members still covered by a collective agreement) across different sectors, occupations, and employment arrangements. The source for all data is the Labour Force Survey public use files. Since we are only looking at 2024 wages, the values are not inflation adjusted. 
+The charts in this post show the difference in average hourly wages in 2024 between non-unionized workers and union members (or non-members still covered by a collective agreement) across different sectors, occupations, and employment arrangements. The source for all data is the Labour Force Survey public use files. Since we are only looking at 2024 wages, the values are not inflation adjusted.
 
 The first chart below compares wages across all of the non-managerial job types based on the [National Occupation Classification System](https://noc.esdc.gc.ca/Structure/ViewStructureList). Whether or not unions lead to higher wages depends highly on the type of job. In the private sector, union members had higher average wages in the vast majority of non-professional occupations, as well as in a few professional categories like education or business jobs.
 
@@ -43,7 +43,7 @@ This finding also implies that the union/non-union divergence in average wages i
 
 ## Unions are busting inequality in the public sector
 
-A similar pattern is evident in the public sector, where average wages are about \$3 higher per hour for non-union members. Unlike in the private sector, this is a long-standing trend. 
+A similar pattern is evident in the public sector, where average wages are about \$3 higher per hour for non-union members. Unlike in the private sector, this is a long-standing trend.
 
 One reason for this is that higher union density rates in public sector workplaces mean membership much more clearly separates average workers from highly paid professionals and managers ([p. 19](https://economics.ubc.ca/wp-content/uploads/sites/38/2018/12/pdf_paper_thomas_Lemieux-public.pdf)).
 
@@ -61,7 +61,7 @@ Just as in the private sector, the average union vs. non-union wage differential
 
 <br>
 
-As in the private sector, union members enjoy higher average wages throughout the bottom of the wage distribution. Union members had higher wages in 15 out of 23 (65%) occupations with lower-than-average wages for the public sector. 
+As in the private sector, union members enjoy higher average wages throughout the bottom of the wage distribution. Union members had higher wages in 15 out of 23 (65%) occupations with lower-than-average wages for the public sector.
 
 This pattern of high union density that uplifts wages most at the low end—likely contributes to the [inequality-reducing effects of public sector employment](https://www.policyalternatives.ca/news-research/how-the-public-sector-is-fighting-income-inequality-and-why-its-still-not-enough/) in Canada.
 
