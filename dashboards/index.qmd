@@ -4,6 +4,50 @@ title: "Dashboards"
 
 ## [Work stoppage dashboard](dw_stoppage_dash/dash.qmd)
 
-**A lightweight dashboard** made using R, Quarto Dashboards, and Datawrapper. It features data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.
+**A lightweight dashboard** presenting data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.
 
-**How to make a responsive dashboard with R, Quarto, and Datawrapper** (*Coming soon*)
+-   `Data source:` Employment and Social Development Canada, Work stoppages by sector and year.
+
+-   `Variables:`
+
+    -   Work stoppages (strikes and lockouts):
+
+        -   number of stoppages
+
+        -   days not worked
+
+        -   stoppage duration
+
+        -   rates per 1K employed.
+
+-   `Interactivity:` None, users can explore different measures using page navigation.
+
+-   `Tools:`
+
+    -   **R**: Data preparation, programmatic chart creation and styling.
+
+    -   **Quarto**: Dashboard layout and web publishing.
+
+    -   **Datawrapper**: For high-quality and responsive live visualizations.
+
+## [Union density dashboard](dw_density_dash/dash.qmd)
+
+An interactive dashboard presenting data on union density in Canada, including comparisons between public and private sectors across various demographic and economic variables such as education, gender, and industry. This dashboard features dynamically updated charts and tables based on user selection without the use of a shiny server.
+
+The dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation and JSON generation. The integration of JavaScript ensures seamless interaction between charts and tables, making this tool both powerful and accessible.
+
+-   `Data source:` Labour Force Survey, public use microdata file (PUMF) 2006-2024.
+
+-   `Variables:` Union density trends in Canada, with sectoral comparisons across variables like education, gender, and more.
+
+-   `Interactivity:` Dropdown selection updates both charts and tables dynamically.
+
+-   `Tools:`
+
+    -   R: Data preparation, programmatic chart creation and styling, facilitating JavaScript integration.
+
+    -   Quarto: For dashboard layout and web publishing.
+
+    -   Datawrapper: For high-quality and responsive live visualizations.
+
+    -   JavaScript: For user selection and dynamic linking between charts and tables.

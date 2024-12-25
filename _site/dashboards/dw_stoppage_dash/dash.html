@@ -40,14 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-dc6e4e8e68694a10674ec6a524f17bbf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-dashboard/quarto-dashboard.js"></script>
-<script src="../../site_libs/quarto-dashboard/stickythead.js"></script>
-<script src="../../site_libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
-<script src="../../site_libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
-<script src="../../site_libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
-<script src="../../site_libs/quarto-dashboard/web-components.js" type="module"></script>
-<script src="../../site_libs/quarto-dashboard/components.js"></script>
-<link href="../../site_libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,10 +69,16 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.scss">
+<meta property="og:title" content="Work stoppages in Canada – Ryan Romard">
+<meta property="og:image" content="https://rromard.netlify.app/dashboards/dw_stoppage_dash/preview.png">
+<meta property="og:site_name" content="Ryan Romard">
+<meta name="twitter:title" content="Work stoppages in Canada – Ryan Romard">
+<meta name="twitter:image" content="https://rromard.netlify.app/dashboards/dw_stoppage_dash/preview.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="quarto-dashboard nav-fixed fullcontent">
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -126,352 +124,209 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-<header id="quarto-dashboard-header">
-<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
-  <div class="navbar-container container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>    
-
-
-    <div class="navbar-brand-container">       
-
-      <div class="navbar-title">
-        <div class="navbar-title-text"><a href="#">Work stoppages in Canada</a></div>
-        
-        <div class="navbar-author">Ryan Romard</div>
-      </div>
-    </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-work-stoppages" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#work-stoppages" data-scrolling="true" href="#work-stoppages" aria-controls="work-stoppages" aria-selected="true"><span class="nav-link-text">Work stoppages</span></a></li><li class="nav-item" role="presentation"><a id="tab-workers-involved" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#workers-involved" data-scrolling="true" href="#workers-involved" aria-controls="workers-involved" aria-selected="false"><span class="nav-link-text">Workers involved</span></a></li><li class="nav-item" role="presentation"><a id="tab-days-lost" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#days-lost" data-scrolling="true" href="#days-lost" aria-controls="days-lost" aria-selected="false"><span class="nav-link-text">Days lost</span></a></li><li class="nav-item" role="presentation"><a id="tab-days-lost-per-1k-workers" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#days-lost-per-1k-workers" data-scrolling="true" href="#days-lost-per-1k-workers" aria-controls="days-lost-per-1k-workers" aria-selected="false"><span class="nav-link-text">Days lost (per 1K workers)</span></a></li><li class="nav-item" role="presentation"><a id="tab-stoppage-duration" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#stoppage-duration" data-scrolling="true" href="#stoppage-duration" aria-controls="stoppage-duration" aria-selected="false"><span class="nav-link-text">Stoppage duration</span></a></li></ul></div></div>
-</nav>
-</header></header>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container dashboard-scrolling quarto-dashboard-pages">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content column-page" id="quarto-document-content">
 
-<div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="flow" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div id="work-stoppages" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-work-stoppages">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-title="**Number of work stoppages by sector (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Number of work stoppages by sector (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-GADTO" style="min-height:691px" class="html-fill-item html-fill-container">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Work stoppages in Canada</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ryan Romard </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="work-stoppages" class="level1">
+<h1>Work stoppages</h1>
+<section id="row" class="level2">
+<h2 class="anchored" data-anchor-id="row">Row</h2>
+<div class="card" title="**Number of work stoppages by sector (1946-2024)**">
+<div id="datawrapper-vis-GADTO" style="min-height:691px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/GADTO/embed.js" charset="utf-8" data-target="#datawrapper-vis-GADTO"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/GADTO/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Share of stoppages due to Lockouts versus Strikes (2015-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Share of stoppages due to Lockouts versus Strikes (2015-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-dQmPe" style="min-height:565px" class="html-fill-item html-fill-container">
+<div class="card" title="**Share of stoppages due to Lockouts versus Strikes (2015-2024)**" data-fill="false">
+<div id="datawrapper-vis-dQmPe" style="min-height:565px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/dQmPe/embed.js" charset="utf-8" data-target="#datawrapper-vis-dQmPe"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/dQmPe/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Number of work stoppages by industry (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Number of work stoppages by industry (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-NHUNH" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+<section id="row-1" class="level2">
+<h2 class="anchored" data-anchor-id="row-1">Row</h2>
+<div class="card" title="**Number of work stoppages by industry (1946-2024)**" data-fill="false">
+<div id="datawrapper-vis-NHUNH" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/NHUNH/embed.js" charset="utf-8" data-target="#datawrapper-vis-NHUNH"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/NHUNH/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="workers-involved" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-workers-involved">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Max number of workers involved by sector (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Max number of workers involved by sector (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-Y2tio" style="min-height:664px" class="html-fill-item html-fill-container">
+</section>
+</section>
+<section id="workers-involved" class="level1">
+<h1>Workers involved</h1>
+<section id="row-2" class="level2">
+<h2 class="anchored" data-anchor-id="row-2">Row</h2>
+<div class="card" title="**Max number of workers involved by sector (1946-2024)**" data-fill="false">
+<div id="datawrapper-vis-Y2tio" style="min-height:664px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/Y2tio/embed.js" charset="utf-8" data-target="#datawrapper-vis-Y2tio"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/Y2tio/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Max number of workers involved via Lockouts versus Strikes (2015-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Max number of workers involved via Lockouts versus Strikes (2015-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-rWBjz" style="min-height:721px" class="html-fill-item html-fill-container">
+<div class="card" title="**Max number of workers involved via Lockouts versus Strikes (2015-2024)**" data-fill="false">
+<div id="datawrapper-vis-rWBjz" style="min-height:721px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/rWBjz/embed.js" charset="utf-8" data-target="#datawrapper-vis-rWBjz"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/rWBjz/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Max number of workers involved by industry (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Max number of workers involved by industry (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-CqP2y" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+<section id="row-3" class="level2">
+<h2 class="anchored" data-anchor-id="row-3">Row</h2>
+<div class="card" title="**Max number of workers involved by industry (1946-2024)**" data-fill="false">
+<div id="datawrapper-vis-CqP2y" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/CqP2y/embed.js" charset="utf-8" data-target="#datawrapper-vis-CqP2y"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/CqP2y/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="days-lost" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-days-lost">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Workdays lost to stoppages by sector (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost to stoppages by sector (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-cv7eq" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+</section>
+<section id="days-lost" class="level1">
+<h1>Days lost</h1>
+<section id="row-4" class="level2">
+<h2 class="anchored" data-anchor-id="row-4">Row</h2>
+<div class="card" title="**Workdays lost to stoppages by sector (1946-2024)**" data-fill="false">
+<div id="datawrapper-vis-cv7eq" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/cv7eq/embed.js" charset="utf-8" data-target="#datawrapper-vis-cv7eq"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/cv7eq/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Workdays lost to Lockouts versus Strikes (2015-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost to Lockouts versus Strikes (2015-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-3xjKL" style="min-height:400px" class="html-fill-item html-fill-container">
+<div class="card" title="**Workdays lost to Lockouts versus Strikes (2015-2024)**" data-fill="false">
+<div id="datawrapper-vis-3xjKL" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/3xjKL/embed.js" charset="utf-8" data-target="#datawrapper-vis-3xjKL"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/3xjKL/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Workdays lost to stoppages by industry (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost to stoppages by industry (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-ACw4W" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+<section id="row-5" class="level2">
+<h2 class="anchored" data-anchor-id="row-5">Row</h2>
+<div class="card" title="**Workdays lost to stoppages by industry (1946-2024)**" data-fill="false">
+<div id="datawrapper-vis-ACw4W" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/ACw4W/embed.js" charset="utf-8" data-target="#datawrapper-vis-ACw4W"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/ACw4W/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="days-lost-per-1k-workers" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-days-lost-per-1k-workers">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Workdays lost by sector <u>per 1000 workers employed</u> (1976-2023)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost by sector <u>per 1000 workers employed</u> (1976-2023)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-EHh7J" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+</section>
+<section id="days-lost-per-1k-workers" class="level1">
+<h1>Days lost (per 1K workers)</h1>
+<section id="row-6" class="level2">
+<h2 class="anchored" data-anchor-id="row-6">Row</h2>
+<div class="card" title="**Workdays lost by sector <u>per 1000 workers employed</u> (1976-2023)**" data-fill="false">
+<div id="datawrapper-vis-EHh7J" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/EHh7J/embed.js" charset="utf-8" data-target="#datawrapper-vis-EHh7J"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/EHh7J/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card html-fill-item html-fill-container bslib-card" data-fill="true" data-title="**Workdays lost by region <u>per 1000 workers employed</u> (1987-2023)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost by region <u>per 1000 workers employed</u> (1987-2023)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-h4OcS" style="min-height:600px" class="html-fill-item html-fill-container">
+<div class="card" title="**Workdays lost by region <u>per 1000 workers employed</u> (1987-2023)**" data-fill="true">
+<div id="datawrapper-vis-h4OcS" style="min-height:600px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/h4OcS/embed.js" charset="utf-8" data-target="#datawrapper-vis-h4OcS"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/h4OcS/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-title="**Workdays lost by industry <u>per 1000 workers employed</u> (1987-2023)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Workdays lost by industry <u>per 1000 workers employed</u> (1987-2023)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-j26Lz" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+<section id="row-7" class="level2">
+<h2 class="anchored" data-anchor-id="row-7">Row</h2>
+<div class="card" title="**Workdays lost by industry <u>per 1000 workers employed</u> (1987-2023)**" data-fill="false">
+<div id="datawrapper-vis-j26Lz" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/j26Lz/embed.js" charset="utf-8" data-target="#datawrapper-vis-j26Lz"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/j26Lz/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-</div>
-<div id="stoppage-duration" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-stoppage-duration">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr) minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-title="**Average stoppage duration (days) by sector (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Average stoppage duration (days) by sector (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-DeqTs" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+</section>
+<section id="stoppage-duration" class="level1">
+<h1>Stoppage duration</h1>
+<section id="row-8" class="level2">
+<h2 class="anchored" data-anchor-id="row-8">Row</h2>
+<div class="card" title="**Average stoppage duration (days) by sector (1946-2024)**">
+<div id="datawrapper-vis-DeqTs" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/DeqTs/embed.js" charset="utf-8" data-target="#datawrapper-vis-DeqTs"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/DeqTs/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card html-fill-item html-fill-container bslib-card" data-title="**Average stoppage duration (days) by region (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Average stoppage duration (days) by region (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-mehuH" style="min-height:600px" class="html-fill-item html-fill-container">
+<div class="card" title="**Average stoppage duration (days) by region (1946-2024)**">
+<div id="datawrapper-vis-mehuH" style="min-height:600px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/mehuH/embed.js" charset="utf-8" data-target="#datawrapper-vis-mehuH"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/mehuH/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-title="**Average duration of stoppages (days) by industry (1946-2024)**" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-header"><div class="card-title"><span style="display: inline">
-<strong>Average duration of stoppages (days) by industry (1946-2024)</strong>
-</span></div></div>
-<div class="card-body html-fill-item html-fill-container">
-<div id="datawrapper-vis-mj8Cl" style="min-height:400px" class="html-fill-item html-fill-container">
+</section>
+<section id="row-9" class="level2">
+<h2 class="anchored" data-anchor-id="row-9">Row</h2>
+<div class="card" title="**Average duration of stoppages (days) by industry (1946-2024)**">
+<div id="datawrapper-vis-mj8Cl" style="min-height:400px">
 <script type="text/javascript" defer="" src="https://datawrapper.dwcdn.net/mj8Cl/embed.js" charset="utf-8" data-target="#datawrapper-vis-mj8Cl"></script>
 <noscript>
 <img src="https://datawrapper.dwcdn.net/mj8Cl/full.png" alt="">
 </noscript>
 </div>
 </div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
-
-</div>
-</div>
-</div>
-</div>
-</div>
 
 
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -562,7 +417,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rromard\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -904,14 +759,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-<script type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (_event) {
-  if (window.bslib.Card) {
-    window.bslib.Card.initializeAllCards();
-  }
-}); 
-</script>
-  
 
 
 

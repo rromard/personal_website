@@ -18,14 +18,14 @@
     "href": "dashboards/index.html",
     "title": "Dashboards",
     "section": "",
-    "text": "A lightweight dashboard made using R, Quarto Dashboards, and Datawrapper. It features data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.\nHow to make a responsive dashboard with R, Quarto, and Datawrapper (Coming soon)"
+    "text": "A lightweight dashboard presenting data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.\n\nData source: Employment and Social Development Canada, Work stoppages by sector and year.\nVariables:\n\nWork stoppages (strikes and lockouts):\n\nnumber of stoppages\ndays not worked\nstoppage duration\nrates per 1K employed.\n\n\nInteractivity: None, users can explore different measures using page navigation.\nTools:\n\nR: Data preparation, programmatic chart creation and styling.\nQuarto: Dashboard layout and web publishing.\nDatawrapper: For high-quality and responsive live visualizations."
   },
   {
     "objectID": "dashboards/index.html#work-stoppage-dashboard",
     "href": "dashboards/index.html#work-stoppage-dashboard",
     "title": "Dashboards",
     "section": "",
-    "text": "A lightweight dashboard made using R, Quarto Dashboards, and Datawrapper. It features data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.\nHow to make a responsive dashboard with R, Quarto, and Datawrapper (Coming soon)"
+    "text": "A lightweight dashboard presenting data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.\n\nData source: Employment and Social Development Canada, Work stoppages by sector and year.\nVariables:\n\nWork stoppages (strikes and lockouts):\n\nnumber of stoppages\ndays not worked\nstoppage duration\nrates per 1K employed.\n\n\nInteractivity: None, users can explore different measures using page navigation.\nTools:\n\nR: Data preparation, programmatic chart creation and styling.\nQuarto: Dashboard layout and web publishing.\nDatawrapper: For high-quality and responsive live visualizations."
   },
   {
     "objectID": "blog/index.html",
@@ -355,5 +355,89 @@
     "title": "How Unions Boost Pay Where It Matters Most",
     "section": "Unions: So worth it, you’ll live longer",
     "text": "Unions: So worth it, you’ll live longer\nSo, is it still worth it to unionize? Absolutely. Most workers — those who are not managers or highly paid professionals — can expect to enjoy higher wages if they are part of a union. In the years to come, it is likely that unionized workers will secure significant raises as pre-inflation crisis contracts expire and new agreements are signed in a high wage growth environment.\nAnd this is only considering hourly wages. It does not account for other forms of compensation, such as pension contributions or access to health insurance plans. Beyond dollars and cents, unions improve members’ lives both at work—through better job security and protection against employer abuse—and outside of work, where studies show union membership leads to better well-being and even extends life expectancy."
+  },
+  {
+    "objectID": "dashboards/index.html#union-density-dashboard",
+    "href": "dashboards/index.html#union-density-dashboard",
+    "title": "Dashboards",
+    "section": "Union density dashboard",
+    "text": "Union density dashboard\nAn interactive dashboard presenting data on union density in Canada, including comparisons between public and private sectors across various demographic and economic variables such as education, gender, and industry. This dashboard features dynamically updated charts and tables based on user selection without the use of a shiny server.\nThe dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation and JSON generation. The integration of JavaScript ensures seamless interaction between charts and tables, making this tool both powerful and accessible.\n\nData source: Labour Force Survey, public use microdata file (PUMF) 2006-2024.\nVariables: Union density trends in Canada, with sectoral comparisons across variables like education, gender, and more.\nInteractivity: Dropdown selection updates both charts and tables dynamically.\nTools:\n\nR: Data preparation, programmatic chart creation and styling, facilitating JavaScript integration.\nQuarto: For dashboard layout and web publishing.\nDatawrapper: For high-quality and responsive live visualizations.\nJavaScript: For user selection and dynamic linking between charts and tables."
+  },
+  {
+    "objectID": "dashboards/dw_density_dash/dash.html",
+    "href": "dashboards/dw_density_dash/dash.html",
+    "title": "Union Density in Canada",
+    "section": "",
+    "text": "Select a Variable:  Province CMA Age group Gender Family type Youngest child Education level Student status Immigration Occupation Industry Establishment size Firm size Employment status Job tenure"
+  },
+  {
+    "objectID": "dashboards/dw_density_dash/dash.html#row",
+    "href": "dashboards/dw_density_dash/dash.html#row",
+    "title": "Union Density in Canada",
+    "section": "Row",
+    "text": "Row\n\n\nSource: The source for all data beyond the home page is the Labour Force Survey (LFS) Public Use Micro-data File (PUMF) published by Statistics Canada. For more information about the Labour Force Survey, please see the official guide produced by StatCan.\nYears covered: 2006 to current (2024)\nEstimates: Public use microdata files have been altered by StatCan to protect the privacy of respondents, so that they might be released as open-access data. Accordingly, estimates produced with a PUMF may vary slightly from officially published data produced by StatCan. The estimated values are provided as-is without any indicators of estimate quality, such as a coefficient of variation (cv) or confidence intervals.\nPopulation: Only the workforce of paid employees either in the public or private sector are included in this report. That means people that are not in the labour force, unemployed, self-employed or unpaid family workers are not included in counts and proportions.\nExclusions: Some parts of the population are excluded from the LFS itself, including people living on reserves, full-time military personnel and institutionalized/incarcerated peoples.\nUpdates: Data is refreshed on a monthly basis with a one month lag, following the PUMF release schedule."
+  },
+  {
+    "objectID": "dashboards/dw_density_dash/dash.html#row-1",
+    "href": "dashboards/dw_density_dash/dash.html#row-1",
+    "title": "Union Density in Canada",
+    "section": "Row",
+    "text": "Row\n\n\n\n\nVariable\nNotes - Source: Guide to the Labour Force\n\n\n\n\nSector\n\nDoes the employee work in the public or private sector?\nThe public sector includes employees in federal, provincial, territorial, municipal and Aboriginal public administrations, as well as in Crown corporations, liquor control boards and other government institutions such as schools (including universities), hospitals and public libraries.\nThe private sector comprises all other employees that are not in the public sector, including paid employees, as well as self-employed people and unpaid family workers (not included in this report).\n\n\n\nProvince\n\nProvince of residence at time of survey\nTerritories are not included in the LFS data\n\n\n\nCMA\n\nCensus Metropolitan Area of residence at time of survey\nIncludes the 9 largest CMAs vs. All other CMAs/Non-CMA areas\n\n\n\nAge group\n\nAge of respondent (4 groups)\nData is collected from people ages 15 and up\n\n\n\nGender\n\nGender of respondent\nData on more diverse gender identities isn’t available at this time\n\n\n\nFamily type\n\nFamily type of respondent\nThe LFS uses the economic family concept to categorize family arrangements\n\n\n\nYoungest child\n\nAge of respondent’s youngest child (if any) in years, 1-24 years old\n\n\n\nEducation level\n\nHighest education level attained by respondent\n\n\n\nStudent status\n\nStudent Status of respondent\nWhether the respondent is attending an educational program during the reference week, regardless of the level of that program\n\n\n\nImmigration\n\nWhether the respondent was born in Canada or immigrated to Canada\nPeople that have been landed immigrants or permanent residents of Canada are counted as immigrants, regardless of citizenship status\n\n\n\nOccupation\n\nOccupation of respondent\nBased on type of work performed by respondent during the reference week\n10 categories based on the National Occupational Classification System (NOCS) 2021 version\nNote: some series are missing entirely, as there are too few of certain occupation types in a sector to produce usable values (e.g. public administration workers in the private sector)\n\n\n\nIndustry\n\nIndustry of employment of respondent\nBased on general nature of business carried out in the establishment of work\n21 categories based on the National Industry Classification System (NAICS) 2021 version\nNote: some series are missing entirely, as there is too little employment in an industry to produce usable values (e.g. manufacturing employment the public sector)\n\n\n\nEstablishment size\n\nSize of the establishment the respondent works in\nEstablishment size refers to the number employees at the location of employment (e.g. a building or compound)\n\n\n\nFirm size\n\nSize of the firm the respondent works in.\nFirm size refers to the number of employees that work at all locations of a given business/organizational entity (e.g. a corporation or non-profit)\n\n\n\nEmployment size\n\nEmployment status markers\nStandard/Non-standard employment\n\nNSE: employees in any combination of the following, part-time, temporary, multiple-jobholders, precarious self-employed (not included)\nStandard: The absence of any of the NSE markers above.\nMore information on how NSE was categorized using method in source.\n\nFull-time/Part-time\n\nFull time: usually works 30 hours per week at main/only job\nPart-time: usually works under 30 hours at main/only job\n\nPermanent/Temporary\n\nPermanent: Expected to last as long as the employee wants it, business conditions permitting; no pre-determined contract end date.\nTemporary: Expected to end at a pre-determined date or after the completion of a particular project; seasonal, temporary, term-based or contract employees.\n\nSingle/Multiple job holders\n\nMultiple job holders worked at two or more jobs during the reference week.\n\nProportions add up to 100% for each sub-group by sector, counts add up to the total number of employees in each sub-group.\n\n\n\nJob tenure\n\nRespondent’s job tenure in years, under one to ten+ years\nNumber of consecutive months or years respondent has worked for the same employer\nSource of tenure categories here"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-2",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-2",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-3",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-3",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-4",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-4",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-5",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-5",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-6",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-6",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-7",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-7",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-8",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-8",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
+  },
+  {
+    "objectID": "dashboards/dw_stoppage_dash/dash.html#row-9",
+    "href": "dashboards/dw_stoppage_dash/dash.html#row-9",
+    "title": "Work stoppages in Canada",
+    "section": "Row",
+    "text": "Row"
   }
 ]
