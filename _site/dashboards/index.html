@@ -39,14 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-dc6e4e8e68694a10674ec6a524f17bbf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-dashboard/quarto-dashboard.js"></script>
-<script src="../site_libs/quarto-dashboard/stickythead.js"></script>
-<script src="../site_libs/quarto-dashboard/datatables.min.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/pdfmake.min.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/vfs_fonts.js" kdttablesentinel="true"></script>
-<script src="../site_libs/quarto-dashboard/web-components.js" type="module"></script>
-<script src="../site_libs/quarto-dashboard/components.js"></script>
-<link href="../site_libs/quarto-dashboard/datatables.min.css" rel="stylesheet" kdttablesentinel="true">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,16 +68,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.scss">
 <meta property="og:title" content="Dashboards – Ryan Romard">
+<meta property="og:description" content="Personal site of Ryan Romard, sociologist and research analyst">
 <meta property="og:image" content="https://rromard.netlify.app/dashboards/preview.png">
 <meta property="og:site_name" content="Ryan Romard">
 <meta name="twitter:title" content="Dashboards – Ryan Romard">
+<meta name="twitter:description" content="Personal site of Ryan Romard, sociologist and research analyst">
 <meta name="twitter:image" content="https://rromard.netlify.app/dashboards/preview.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="quarto-dashboard nav-fixed dashboard-fill fullcontent">
-
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -131,40 +125,40 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-<header id="quarto-dashboard-header">
-<nav class="navbar navbar-expand-md slim" data-bs-theme="dark">
-  <div class="navbar-container container-fluid">
-    <button class="navbar-toggler hidden" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-controls="dashboard-collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>    
-
-
-    <div class="navbar-brand-container">       
-
-      <div class="navbar-title">
-        <div class="navbar-title-text"><a href="#">Dashboards</a></div>
-        
-        
-      </div>
-    </div>
-</div>
-</nav>
-</header></header>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content column-page" id="quarto-document-content">
 
-<div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
-<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card bslib-card html-fill-container" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dashboards</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="work-stoppage-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="work-stoppage-dashboard"><a href="../dashboards/dw_stoppage_dash/dash.html">Work stoppage dashboard</a></h2>
 <p><strong>A lightweight dashboard</strong> presenting data on work stoppages (strikes and lockouts) in Canada by sector, industry, and province. This began as an experiment in responsive dashboard design with the new Quarto dashboards feature. The live charts were created using R and the Datawrapper API – probably the best part is how well they work with Quarto for creating responsive designs that work well and without too much fuss on both wide and mobile screens.</p>
 <ul>
 <li><p><code>Data source:</code> Employment and Social Development Canada, Work stoppages by sector and year.</p></li>
-<li><code>Variables:</code>
+<li><p><code>Variables:</code></p>
 <ul>
 <li><p>Work stoppages (strikes and lockouts):</p>
 <ul>
@@ -175,32 +169,23 @@ grid-auto-rows: minmax(0, 1fr);">
 </ul></li>
 </ul></li>
 <li><p><code>Interactivity:</code> None, users can explore different measures using page navigation.</p></li>
-<li><code>Tools:</code>
+<li><p><code>Tools:</code></p>
 <ul>
 <li><p><strong>R</strong>: Data preparation, programmatic chart creation and styling.</p></li>
 <li><p><strong>Quarto</strong>: Dashboard layout and web publishing.</p></li>
 <li><p><strong>Datawrapper</strong>: For high-quality and responsive live visualizations.</p></li>
 </ul></li>
 </ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-<div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
-<div class="card bslib-card html-fill-container" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
+</section>
+<section id="union-density-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="union-density-dashboard"><a href="../dashboards/dw_density_dash/dash.html">Union density dashboard</a></h2>
 <p>An interactive dashboard presenting data on union density in Canada, including comparisons between public and private sectors across various demographic and economic variables such as education, gender, and industry. This dashboard features dynamically updated charts and tables based on user selection without the use of a shiny server.</p>
-<p>The dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation and JSON generation. The integration of JavaScript ensures seamless interaction between charts and tables, making this tool both powerful and accessible.</p>
+<p>The dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation, chart creation, and JSON generation. The integration of JavaScript enables selection between charts and tables without the need for a shiny server.</p>
 <ul>
 <li><p><code>Data source:</code> Labour Force Survey, public use microdata file (PUMF) 2006-2024.</p></li>
 <li><p><code>Variables:</code> Union density trends in Canada, with sectoral comparisons across variables like education, gender, and more.</p></li>
 <li><p><code>Interactivity:</code> Dropdown selection updates both charts and tables dynamically.</p></li>
-<li><code>Tools:</code>
+<li><p><code>Tools:</code></p>
 <ul>
 <li><p>R: Data preparation, programmatic chart creation and styling, facilitating JavaScript integration.</p></li>
 <li><p>Quarto: For dashboard layout and web publishing.</p></li>
@@ -208,19 +193,11 @@ grid-auto-rows: minmax(0, 1fr);">
 <li><p>JavaScript: For user selection and dynamic linking between charts and tables.</p></li>
 </ul></li>
 </ul>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden">
-
-</div>
-</div>
-</div>
 
 
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -653,14 +630,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-<script type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (_event) {
-  if (window.bslib.Card) {
-    window.bslib.Card.initializeAllCards();
-  }
-}); 
-</script>
-  
 
 
 

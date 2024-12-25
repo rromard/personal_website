@@ -32,15 +32,15 @@ title: "Dashboards"
 
 ## [Union density dashboard](dw_density_dash/dash.qmd)
 
-An interactive dashboard presenting data on union density in Canada, including comparisons between public and private sectors across various demographic and economic variables such as education, gender, and industry. This dashboard features dynamically updated charts and tables based on user selection without the use of a shiny server.
+An interactive dashboard presenting data on union density in Canada, including comparisons between public and private sectors across various demographic and economic variables such as education, gender, and industry. This dashboard features dynamically updated charts and tables based on user selection without needing to set up a shiny server.
 
-The dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation and JSON generation. The integration of JavaScript ensures seamless interaction between charts and tables, making this tool both powerful and accessible.
+The dashboard was created using a combination of Quarto for layout and interactivity, Datawrapper for visualizations, and custom R scripts for data preparation, chart creation, and JSON generation. JavaScript is used to enables variable selection between charts and tables without using shiny – so it can be integrated seamlessly with any quarto website.
 
 -   `Data source:` Labour Force Survey, public use microdata file (PUMF) 2006-2024.
 
 -   `Variables:` Union density trends in Canada, with sectoral comparisons across variables like education, gender, and more.
 
--   `Interactivity:` Dropdown selection updates both charts and tables dynamically.
+-   `Interactivity:` Drop down selection updates both charts and tables dynamically.
 
 -   `Tools:`
 
