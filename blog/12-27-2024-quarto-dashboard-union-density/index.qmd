@@ -1,0 +1,92 @@
+---
+title: "Dashboard: A data portrait of union density in Canada"
+author: "Ryan Romard"
+date: "12/27/2024"
+image: thumb.webp
+description: "Introducing my dashboard of union density in Canada, with live charts/tables showing union density across 15 variables, in the public and private sector. Made with R, Quarto, Datawrapper and Javascript."
+title-block-banner: true
+categories:
+  - dashboards
+  - unions
+  - union density
+  - lfs
+  - quarto
+---
+
+## Introducing my union density dashboard
+
+One of the main measures of the health of a country's labour movement and the level of respect for labour rights, is union density -- simply, the rate of employees that are members of labour unions. Generally, the higher the rate of unionization, the better it is for workers.
+
+Statistics Canada produces some official estimates of union density based on the Labour Force Survey (LFS). One can find, for example, official union density estimates by [education level](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410013001), [occupation](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410041501), or [industry](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410013201). There is an issue using those estimates to draw conclusions about unionization patterns in Canada – is it in the private or public sector?
+
+Unionization rates are about five times higher in the public sector (76%) than in the private sector (15%), meaning patterns and trends vary greatly by sector. For example, what is average union density in the transportation and warehousing industries in Canada? According to the official estimates, about [40.7% of those workers were unionized](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410013201) in 2023. Yet if we break that down into sector, we see that 82% in the public sector are union members, while only 25% of those in the private sector are.
+
+Since union rates are always high in one sector and low in another, averages needs to be disaggregated by sector to make sense of the trends in the data. Yet none of StatCan's official estimate tables are available broken down by sector. It's possible to pay for a custom tabulation. But to otherwise access that information for free requires using microdata files that demand some level of proficiency with statistical or coding software.
+
+To make this open-access data more accessible, I have created an interactive dashboard featuring Canadian union density data from 2006 until (currently) October of 2024. I plan to add live-update capacity in the future to refresh the charts with new LFS data as it is released.
+
+The dashboard has charts and tables on union density for 15 variables, always broken down into the public and private sectors, including:
+
+-   Age
+-   Gender
+-   Employment status
+-   Industry
+-   Occupation
+-   Province and CMA
+-   Job tenure
+-   And more!
+
+::: callout-tip
+## Dashboard link
+<big>[CLICK HERE TO ACCESS DASHBOARD](https://rromard.netlify.app/dashboards/dw_density_dash/dash)</big>
+:::
+
+### Data source
+
+All of the calculations are based on the [LFS public use microdata files (PUMF)](https://www150.statcan.gc.ca/n1/en/catalogue/71M0001X), which are LFS data files that have been altered to protect the privacy of respondents, so that researchers can use them freely. Often estimates created with PUMF are very close, but a little bit different from official estimated produced using the original data.
+
+For the time being, these values are presented without any measures of estimate quality, like the coefficient of variation or confidence intervals. Producing those estimates from PUMF is a major project unto itself, so maybe some day, but for now these values are presented as is and should be used with caution.
+
+### Defining density
+
+Union density has been defined in slightly different ways. This dashboard is aligned with the definition used by StatCan in [most recent analyses](https://www150.statcan.gc.ca/n1/pub/14-28-0001/2020001/article/00016-eng.htm) which is the percentage of paid employees that are members of a trade union. That means that only paid employees are used in the denominator for calculating density rates, meaning unemployed workers, self-employed people, unpaid family workers, and those not in the labour force are not included.
+
+### How is this thing made?
+
+In the future, I will probably write in more detail about how to craft a dashboard like this, but for now I'll mention that it is made with a combination of:
+
+-   `Quarto`'s dashboard format to create the responsive layout and integrate it seamlessly with this site, which is also made with Quarto;
+
+-   `Datawrapper` for live, interactive charts that work well on just about any screen size;
+
+-   `R` to create the data pipeline, do the calculations, and create the charts by accessing the Datawrapper API;
+
+-   And a sprinkling of `Javascript` to allow the user to select variables without a Shiny server.
+
+## Example visuals
+
+For the charts, I went with multiple density plots. Felt like a natural fit for presenting union density data. The charts are best for visually appraising many trends over time. If you want to see the specific values for a particular series, flip over to the table tab to see the exact same data in the chart presented in a table. For all charts and tables, there is an option to download the data in the footer of the chart.
+
+### Charts
+
+#### Union density declines with company size
+
+::: {#datawrapper-vis-A1tur style="min-height:1376px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/A1tur/embed.js" charset="utf-8" data-target="#datawrapper-vis-A1tur"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/A1tur/full.png"/></noscript>
+:::
+
+### Tables
+
+#### Union density declines with company size
+
+::: {#datawrapper-vis-87igE style="min-height:675px"}
+```{=html}
+<script type="text/javascript" defer src="https://datawrapper.dwcdn.net/87igE/embed.js" charset="utf-8" data-target="#datawrapper-vis-87igE"></script>
+```
+
+<noscript><img src="https://datawrapper.dwcdn.net/87igE/full.png"/></noscript>
+:::
